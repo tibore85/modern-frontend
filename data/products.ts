@@ -1,0 +1,58 @@
+import { Product } from "@/lib/types/product";
+
+export const products: Product[] = [
+    {
+        id: 1,
+        name: "Wireless Headphones",
+        description: "High-quality wireless headphones with noise cancellation",
+        price: 199.99,
+        category: "Electronics",
+        image: "/images/headphones.jpg",
+        inStock: true,
+    },
+    {
+        id: 2,
+        name: "Smart Watch",
+        description: "Fitness tracker with heart rate monitor and GPS",
+        price: 299.99,
+        category: "Electronics",
+        image: "/images/smartwatch.jpg",
+        inStock: true,
+    },
+    {
+        id: 3,
+        name: "Laptop Stand",
+        description: "Ergonomic aluminum laptop stand with adjustable height",
+        price: 49.99,
+        category: "Accessories",
+        image: "/images/laptop-stand.jpg",
+        inStock: true,
+    },
+    {
+        id: 4,
+        name: "Mechanical Keyboard",
+        description: "RGB backlit mechanical keyboard with blue switches",
+        price: 129.99,
+        category: "Electronics",
+        image: "/images/keyboard.jpg",
+        inStock: false,
+    },
+    {
+        id: 5,
+        name: "USB-C Hub",
+        description: "7-in-1 USB-C hub with HDMI, USB 3.0, and SD card reader",
+        price: 39.99,
+        category: "Accessories",
+        image: "/images/usb-hub.jpg",
+        inStock: true,
+    },
+    {
+        id: 6,
+        name: "Wireless Mouse",
+        description: "Ergonomic wireless mouse with precision sensor",
+        price: 29.99,
+        category: "Accessories",
+        image: "/images/mouse.jpg",
+        inStock: true,
+    },
+];
